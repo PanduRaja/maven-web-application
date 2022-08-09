@@ -28,6 +28,15 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+	
+	<distributionManagement>
+		
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0fbuvu5n5p18-artifactory-primary-0-snapshots</name>
+        <url>https://test047.jfrog.io/artifactory/default-libs-snapshot-local</url>
+    </snapshotRepository>
+    </distributionManagement>
 
 	<dependencies>
 		
