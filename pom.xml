@@ -29,6 +29,14 @@
 
 	</properties>
 	
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0yyg2kt0o5u8-artifactory-primary-0-releases</name>
+        <url>https://mytestdev1.jfrog.io/artifactory/xrayscanning-libs-release-local</url>
+    </repository>
+</distributionManagement>
+	
 	<dependencies>
 		
 		<dependency>
